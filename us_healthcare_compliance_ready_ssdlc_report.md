@@ -9,7 +9,7 @@
 |---|---|
 | Document Title | Compliance-Ready Security & Software Development Framework |
 | Prepared For | U.S. Healthcare Organization |
-| Prepared By | Senior Consultant – Big 4 Advisory Services |
+| Prepared By | Sourav Das |
 | Classification | Confidential |
 | Version | 1.0 |
 | Date | May 2026 |
