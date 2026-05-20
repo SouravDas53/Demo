@@ -479,17 +479,49 @@ When Checkmarx is integrated into the SDLC with clear ownership, consistent thre
 
 # Appendix A – Sample SAST Report Header
 
-| Field | Example |
+
+## Scan Summary
+
+| Field | Value |
 |---|---|
-| Application | Patient Portal |
-| Scan Type | Full Repository Scan |
-| Branch | release/2026.05 |
-| Scan Date | 2026-05-20 |
-| Findings | 96 |
-| Critical | 0 |
-| High | 4 |
-| Medium | 21 |
-| Low | 71 |
+| Application | **Patient Portal** |
+| Scan Type | **Full Repository Scan** |
+| Branch | **release/2026.05** |
+| Scan Date | **2026-05-20** |
+
+---
+
+## Findings Overview
+
+| Severity | Count | Status |
+|---|---:|---|
+| Critical | **0** | 🟢 Clear |
+| High | **4** | 🔴 Needs attention |
+| Medium | **21** | 🟠 Monitor |
+| Low | **71** | 🟡 Informational |
+
+| Total Findings | **96** |
+|---|---|
+
+---
+
+## Risk Posture
+
+### Security Health
+- 🟢 No critical vulnerabilities detected
+- 🔴 High severity findings require remediation
+- 🟠 Medium findings should be reviewed
+- 🟡 Low findings tracked for backlog cleanup
+
+---
+
+## Visual Summary
+
+```text
+Critical   ░░░░░░░░░░░░░░░░░░ 0
+High       ████░░░░░░░░░░░░░░ 4
+Medium     ██████████████████ 21
+Low        █████████████████████████████████████████████████████ 71
 
 ---
 
