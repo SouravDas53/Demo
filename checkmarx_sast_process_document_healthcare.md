@@ -329,6 +329,7 @@ The following technical data should appear in the SAST report or dashboard:
 | Re-test completion rate | 96% |
 
 ---
+
 +--------------------------------------------------+
 | SECURITY POSTURE DASHBOARD                       |
 +--------------------------------------------------+
@@ -347,6 +348,7 @@ PR Scan Coverage
 
 Re-Test Completion
 ████████████████████ 96%
+
 ---
 
 # 14. Evidence and Audit Requirements
