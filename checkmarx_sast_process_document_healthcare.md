@@ -517,7 +517,6 @@ When Checkmarx is integrated into the SDLC with clear ownership, consistent thre
 
 ## Visual Summary
 
-```text
 Critical   ░░░░░░░░░░░░░░░░░░ 0
 High       ████░░░░░░░░░░░░░░ 4
 Medium     ██████████████████ 21
