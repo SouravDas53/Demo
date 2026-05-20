@@ -328,25 +328,42 @@ The following technical data should appear in the SAST report or dashboard:
 | PR scan coverage | 93% |
 | Re-test completion rate | 96% |
 
+---
 
-+--------------------------------------------------+
-| SECURITY POSTURE DASHBOARD                       |
-+--------------------------------------------------+
+## Overview
 
-[42]
-Applications Onboarded
+| Metric | Value | Status |
+|---|---:|---|
+| Applications onboarded | **42** | Healthy |
+| Active repositories | **58** | Healthy |
+| Critical findings open | **3** | Needs attention |
+| High findings open | **19** | Needs attention |
+| Medium findings open | **74** | Monitor |
+| Mean time to remediate high findings | **8 days** | Good |
+| PR scan coverage | **93%** | Strong |
+| Re-test completion rate | **96%** | Strong |
 
-[58]
-Active Repositories
+---
 
-[3]     [19]      [74]
-Critical High      Medium
+## Visual Health Summary
 
-PR Scan Coverage
-███████████████████ 93%
+### Findings
+- 🔴 Critical findings open: **3**
+- 🟠 High findings open: **19**
+- 🟡 Medium findings open: **74**
 
-Re-Test Completion
-████████████████████ 96%
+### Delivery Quality
+- ✅ PR scan coverage: **93%**
+- ✅ Re-test completion rate: **96%**
+
+---
+
+## Status Interpretation
+
+- **Healthy**: no immediate action required
+- **Good**: acceptable and under control
+- **Monitor**: keep an eye on trend
+- **Needs attention**: investigate and remediate
 
 ---
 
