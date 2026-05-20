@@ -1,5 +1,4 @@
-# SAST Process Document
-## Using Checkmarx for a U.S. Healthcare Organization
+# SAST Process Document (Checkmarx)
 
 ---
 
@@ -9,11 +8,11 @@
 |---|---|
 | Document Title | Static Application Security Testing (SAST) Process Document |
 | Tooling Reference | Checkmarx SAST |
-| Prepared For | U.S. Healthcare Organization |
-| Prepared By | Senior Consultant – Big 4 Advisory Services |
+| Prepared For | LIFESTANCE HEALTH |
+| Prepared By | Lalit kumar |
 | Classification | Confidential |
 | Version | 1.0 |
-| Date | May 2026 |
+| Date | Feb 2026 |
 | Review Cycle | Quarterly |
 
 ---
